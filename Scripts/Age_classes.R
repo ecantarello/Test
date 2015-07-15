@@ -14,6 +14,7 @@ library(scales)
 rm(list=ls())
 
 #load one dataset
+#I have changes this
 File_names<-list.files(pattern="*.img",recursive=T)
 File_names<-File_names[!grepl("*.dbf",File_names)]
 File_names<-File_names[grepl("AGE-MAX",File_names)]
